@@ -1,0 +1,14 @@
+clc;
+close all;
+t=imread('colo.png');
+figure;
+subplot(2,1,1);
+imshow(t);
+subplot(2,1,2);
+j=t(1:155,155:310,:);
+imshow(j);
+lol=t(:,:,1);
+figure;
+imshow(lol);
+pix=t(155,155,1);
+disp(pix);

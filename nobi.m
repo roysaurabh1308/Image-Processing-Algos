@@ -1,0 +1,9 @@
+nob=imread('man.jpg');
+gr=rgb2gray(nob);
+lol=edge(gr,'sobel');
+figure()
+imshow(nob)
+figure()
+imshow(gr)
+figure()
+imshow(lol)
